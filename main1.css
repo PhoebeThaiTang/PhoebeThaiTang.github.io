@@ -1,0 +1,33 @@
+@charset "UTF-8";
+h1 {
+    font-size: 80px;
+    margin-top: 40px;
+    font-family: "Avoda Free Trial";
+}
+ul {
+    margin-top: -8px;
+}
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    line-height: 30px;
+}
+img {
+    margin-left: 200px;
+}
+footer {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+h2 {
+    font-size: 50px;
+    margin-top: -41px;
+}
+.center {
+    padding-left: 113px;
+}
+h3 {
+    padding-left: 300px;
+    font-size: 25px;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    background-color: #1C2536;
+}
+.center {
+    padding-left: 0px;
+    margin-left: 300px;
+}
+.center {
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>contact</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="container-fluid container-xl">
+	<nav>
+	  	<ul>
+			<li><a href="index.html">Home</a></li>
+			<li id="backtotop"> <a href="about.html">About</a></li>
+			<li id="explore">Explore</li>
+				<ul id="explorelist" style="position:absolute;">
+					<li>History</li>
+					<li>Principles</li>
+					<li>Reception</li>
+			</ul>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+  </nav>
+		 
+
+	  
+
+
+<footer> 
+		  <h4><a href="#backtotop">Back to top</a></h4>
+</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script> $("#explore").click(function(){
+  $("#explorelist").slideToggle(); 
+});
+ </script>
+</body>
+</html>
