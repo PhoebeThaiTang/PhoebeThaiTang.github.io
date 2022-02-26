@@ -31,11 +31,14 @@ li {
     padding-left: 114px;
 }
 h1 {
-    margin-top: 205px;
+    margin-top: 29px;
     text-align: center;
     font-family: "Avoda Free Trial";
     font-size: 73px;
     padding-top: 20px;
+}
+.corporate {
+    margin-top: 100px;
 }
 h2 {
     text-align: center;
@@ -94,4 +97,109 @@ a:visited {
 }
 a:hover {
     color: #FFAD96;
+}
+.container-fluid.container-xl p {
+    text-align: left;
+}
+.head {
+    margin-top: -6px;
+}
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+.credit {
+    color: #777777;
+    font-size: 16px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.link2 {
+    color: #000D4E;
+}
+.link2:hover {
+    color: #F38A47;
+}
+.link2:visited {
+    color: #4A005F;
+}
+h4 {
+    font-size: 18px;
+    line-height: 2;
+}
+.link3 {
+    color: #5868FF;
+}
+.link3:hover {
+    color: #0043C7;
+}
+
+@media (max-width: 940px){
+h4 {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 843px){
+h4 {
+    font-size: 15px;
+}
+h2 {
+    font-size: 45px;
+}
+}
+
+@media (max-width: 794px){
+h4 {
+    font-size: 14px;
+}
+h1 {
+    font-size: 40px;
+}
+}
+
+@media (max-width: 745px){
+h4 {
+    font-size: 13px;
+}
+h1 {
+    font-size: 35px;
+}
+}
+
+@media (max-width: 697px){
+h4 {
+    font-size: 12px;
+}
+h1 {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 648px){
+h4 {
+    font-size: 10px;
+}
+}
+
+@media (max-width: 611px){
+h4 {
+    font-size: 0;
+}
+h1 {
+    font-size: 0px;
+}
+}
+
+@media (max-width: 651px){
+h1 {
+    font-size: 40px;
+    padding-bottom: 0px;
+    padding-right: 35px;
+}
+}
+
+@media (max-width: 631px){
+h1 {
+    font-size: 35px;
+}
 }
