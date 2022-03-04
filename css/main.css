@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url("../webfonts/Purrfect/stylesheet.css");
+@import url("../webfonts/Cute_Meow/stylesheet.css");
+@import url("../webfonts/Catlove/stylesheet.css");
+@import url("../webfonts/The_Cat_FREE/stylesheet.css");
+@import url("../webfonts/CatCafe/stylesheet.css");
+@import url("../webfonts/Quiet_Meows/stylesheet.css");
+@import url("../webfonts/BeautyDemo/stylesheet.css");
+@import url("../webfonts/CatsAlphabet/stylesheet.css");
+h1 {
+    text-align: center;
+    font-size: 182px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Purrfect;
+    margin-top: 60px;
+}
+.begin {
+    text-align: center;
+    font-size: 47px;
+    font-family: "Quiet Meows";
+    color: #000000;
+}
+h3 {
+    text-align: center;
+    font-family: Catlove;
+}
+.choice {
+    font-size: 47px;
+}
+.tomove {
+    margin-top: -20px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.arrange {
+    margin-top: -29px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.pusheen {
+    margin-top: -91px;
+}
+.pushup {
+    margin-top: -80px;
+}
