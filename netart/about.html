@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="container-fluid container-xl">
+	<h1><a href="index.html">Plant a Cat</a></h1>
+	<h3 class="tomove">Do you know every second, a cat sprouts out of a flower pot?</h3>
+	<h3>Like, for real</h3>
+	<h3>Look!</h3>
+	 <br> 
+	<div class="slideshow-container">
+
+<!-- Slideshow container -->
+		<div class="mySlides">
+		<div class="numbertext">1 / 10</div>
+		<img src="img/Cat in pot/1.jpg"  class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+
+		<div class="mySlides">
+		<div class="numbertext">2 / 10</div>
+		<img src="img/Cat in pot/2.jpg"  class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+
+		<div class="mySlides">
+		<div class="numbertext">3 / 10</div>
+		<img src="img/Cat in pot/3.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+
+		<div class="mySlides">
+		<div class="numbertext">4 / 10</div>
+		<img src="img/Cat in pot/4.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">5 / 10</div>
+		<img src="img/Cat in pot/5.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">6 / 10</div>
+		<img src="img/Cat in pot/6.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">7 / 10</div>
+		<img src="img/Cat in pot/7.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">8 / 10</div>
+		<img src="img/Cat in pot/8.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">9 / 10</div>
+		<img src="img/Cat in pot/9.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<div class="mySlides">
+		<div class="numbertext">10 / 10</div>
+		<img src="img/Cat in pot/10.jpg" class="d-block mx-auto" alt="Cat in flower pot">
+		</div>
+		<br> <br>
+  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+<!-- The dots/circles -->
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+
+</div>
+	<br> <br>
+	  	<h3>Like what you see?</h3>
+	  	<h3>Want one?</h3>
+	  	<h3>Is that a "Yes" I hear?</h3>
+
+	<div class="row">
+			<div class="col-4 starpad pushstarabout"><img class="img-fluid" src="img/Index/5.gif" alt="Sparkle gif"></div>
+			<h3 class="col-4"><a href="plants.html">Then click here!</a></h3>
+			<div class="col-4 starpad pushstarabout"><img class="img-fluid" src="img/Index/5.gif" alt="Sparkle gif"></div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+  </body>
+</html>
